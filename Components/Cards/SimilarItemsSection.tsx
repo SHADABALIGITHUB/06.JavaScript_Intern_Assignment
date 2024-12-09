@@ -1,7 +1,7 @@
 import React from 'react';
 import { HeartIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
-import table from './table.jpg';
+import table from '@/Components/Cards/table.jpg';
 
 function SimilarItemsSection() {
     const item = [1, 2, 3, 4];

@@ -1,6 +1,6 @@
 "use client";
 
-import Anchor from './Anchors';
+import Anchor from '@/Components/Navbar/Anchors';
 import Logo_Search_btn from "@/Components/Navbar/Logo_Search_btn";
 
 export default function Navbar() {

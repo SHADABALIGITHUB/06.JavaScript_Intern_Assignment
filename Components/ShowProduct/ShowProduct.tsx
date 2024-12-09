@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import HeartIcon from '@heroicons/react/24/outline/HeartIcon';
 import Image from 'next/image';
-import table from '../Cards/table.jpg';
+import table from '@/Components/Cards/table.jpg';
 
 function ShowProduct() {
     const [quantity, setQuantity] = useState(1);
