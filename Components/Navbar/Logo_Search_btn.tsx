@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { MagnifyingGlassIcon, LightBulbIcon, HeartIcon, ShoppingCartIcon, UserIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
 
 export default function Navbar() {
     return (
@@ -7,7 +8,7 @@ export default function Navbar() {
             <div className="flex items-center justify-around w-full">
                 {/* Logo */}
                 <Link href="/" className="flex items-center">
-                    <img src="https://pbs.twimg.com/profile_images/1823657033851170816/DwUBAylS_400x400.png" alt="Logo" className="h-20" />
+                    <Image width={50} height={50} src="https://pbs.twimg.com/profile_images/1823657033851170816/DwUBAylS_400x400.png" alt="Logo" className="h-20" />
                     {/*<span className="text-xl font-semibold">MyShop</span>*/}
                 </Link>
 

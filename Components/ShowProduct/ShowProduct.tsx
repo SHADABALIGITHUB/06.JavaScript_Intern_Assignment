@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import HeartIcon from '@heroicons/react/24/outline/HeartIcon';
 import Image from 'next/image';
-import table from '@/Components/Cards/table.jpg';
+
 
 function ShowProduct() {
     const [quantity, setQuantity] = useState(1);
@@ -16,8 +16,8 @@ function ShowProduct() {
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className="text-center relative">
-                        <Image src={table} alt="No error" width={60} height={60} className={`absolute top-2 left-2.5`} />
-                        <img src="https://s3-alpha-sig.figma.com/img/a697/3509/f0a6397c22547c66edb2d8aa2737a300?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EtsQJfv9u5t01gG7pGixbkY-6gSYW2VaGq4SaV5VyxJTJBhfxkknxTYxzEx3b8wBvPd7D040ZgM-ZFd8dkFjcA0mfriI~ztdaTCcFb39X5CUalhHdkkkzy9UifyaSYAWzrsTYogLd~73ki-DHR1q0eK1zKPtQZGtNazsvPfEaEpRJWzeFr6yz1V2cQGzxedpS5cOLymjwU5BwKS7GVkCMGckklRBfFXkQvVHsTIM~1lNx80qllijk0um4J8kDgy8nZikSZeuctM4eapFbfJJsjT~GqI2mlTUUSSFwu259qSCbeOeWzQjdjfIu5WnxFTsH0XK5qgCFsBti34anjc-Cg__" alt="Product Image" className="w-full h-96 object-contain" />
+                        <Image src="/table.jpg" alt="No error" width={60} height={60} className={`absolute top-2 left-2.5`} />
+                        <Image alt="not working" width={100} height={100} src="/machine.jpg" />
                     </div>
                     <div className="lg:pl-8">
                         <h2 className="text-3xl font-bold mb-4">Cheese - Appareil à Raclette 1/2 Roue</h2>

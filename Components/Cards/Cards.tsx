@@ -1,6 +1,8 @@
 "use client";
 import React,{useState} from "react";
 import { Search } from 'lucide-react';
+import Image from "next/image";
+
 const Cards:React.FC=()=>{
     const [searchQuery, setSearchQuery] = useState<string>('');
 
@@ -15,8 +17,8 @@ const Cards:React.FC=()=>{
     };
     return (
         <div className={`w-full flex max-h-64 gap-4`}>
-        <img className="w-full h-full flex-1 object-cover rounded-3xl" alt="working no"
-              src="https://s3-alpha-sig.figma.com/img/cb2f/10dc/bd417ec3068aec151c8c21328b97422b?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LRcOZDd~Gf-TKrhMr0FhBfruMuATM5A62ZhYFU~dY5vtHjsFlAcBHFJ-5yUJPJX2UE0bIiwRmosAB4DIPNWnCAMCs8iQ4qttHwGrT1IItjzREfLY46ZxTk0bNN84n6UkyqCQhiznuA7-JnhdZ18awRpZu4jDOiuPzpmw1HOHBG9d-hhmilKumiQdFsD1eZ3Q6feXCMArSpsj~haevmSfmKDl0l4q5rFLKy4CGvsF~li-ik3ii6P3owt3LU6J9mMZEZJVEKVy3pp2VYnQ4glyzy1JDU33bfdN1rK2rgZO2FdNWuDGdqIkSpkG~ZgNYmZ9y6gUOFwfdCb5B1WKvlNtaA__"
+        <Image width={100} height={100} className="w-full h-full flex-1 object-cover rounded-3xl" alt="working no"
+              src="/machine.jpg"
         />
             <div className={`flex flex-col p-8 w-1/2 rounded-3xl bg-gradient-to-b from-pink-100 to-white shadow`}>
 
