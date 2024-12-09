@@ -13,11 +13,11 @@ function ShowProduct() {
 
     return (
         <div className="bg-white py-12">
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-4 text-slate-900">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className="text-center relative">
                         <Image src="/table.jpg" alt="No error" width={60} height={60} className={`absolute top-2 left-2.5`} />
-                        <Image alt="not working" width={100} height={100} src="/machine.jpg" />
+                        <Image alt="not working" width={650} height={650} src="/machine.jpg" />
                     </div>
                     <div className="lg:pl-8">
                         <h2 className="text-3xl font-bold mb-4">Cheese - Appareil à Raclette 1/2 Roue</h2>

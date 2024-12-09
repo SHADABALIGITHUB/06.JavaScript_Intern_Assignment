@@ -17,8 +17,8 @@ const Cards:React.FC=()=>{
     };
     return (
         <div className={`w-full flex max-h-64 gap-4`}>
-        <Image width={100} height={100} className="w-full h-full flex-1 object-cover rounded-3xl" alt="working no"
-              src="/machine.jpg"
+        <Image width={100} height={100} className="flex-1 object-cover rounded-3xl" alt="working no"
+              src="/screen.jpg"
         />
             <div className={`flex flex-col p-8 w-1/2 rounded-3xl bg-gradient-to-b from-pink-100 to-white shadow`}>
 

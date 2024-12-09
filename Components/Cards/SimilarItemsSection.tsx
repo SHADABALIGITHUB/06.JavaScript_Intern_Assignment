@@ -22,7 +22,7 @@ function SimilarItemsSection() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {item.map((item, index) => (
                         <div key={index} className="text-center p-8 border border-gray-200 rounded-lg relative">
-                            <Image width={100} height={100} src="/table.jpg" alt="Product Image" className="w-full h-48 object-contain mb-4"/>
+                            <Image width={250} height={250} src="/table.jpg" alt="Product Image" className="object-contain mb-4"/>
                             <h4 className="text-md absolute top-2 right-2.5 mb-2">Art de la table</h4>
                             <HeartIcon className="w-8 h-8 absolute top-2 left-2.5 text-blue-500 mx-auto mb-2"/>
                                <div className={`flex flex-col`}>
@@ -46,7 +46,7 @@ function SimilarItemsSection() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {item.map((item, index) => (
                         <div key={index} className="text-center p-8 border border-gray-200 rounded-lg relative">
-                            <Image width={100} height={100} src="/table.jpg" alt="Product Image" className="w-full h-48 object-contain mb-4"/>
+                            <Image width={250} height={250} src="/table.jpg" alt="Product Image" className=" mb-4"/>
                             <h4 className="text-md absolute top-2 right-2.5 mb-2">Art de la table</h4>
                             <HeartIcon className="w-8 h-8 absolute top-2 left-2.5 text-blue-500 mx-auto mb-2"/>
                             <div className={`flex flex-col`}>
