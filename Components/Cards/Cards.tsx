@@ -22,10 +22,10 @@ const Cards:React.FC=()=>{
         />
             <div className={`flex flex-col p-8 w-1/2 rounded-3xl bg-gradient-to-b from-pink-100 to-white shadow`}>
 
-                <h5 className="text-3xl font-medium tracking-tight text-gray-900">
+                <h5 className="md:text-3xl text-sm font-medium tracking-tight text-gray-900">
                     S’inscrire & économiser <span className={`text-cyan-400`}>10% </span>
                 </h5>
-                <p className="font-geist text-[12px] font-medium leading-[22px] decoration-none text-[#BDA2B0]">
+                <p className="font-geist text-xs md:text-md font-medium leading-[22px] decoration-none text-[#BDA2B0]">
                     Office ipsum you must be muted. Synergize helicopter prioritize anyway job due harvest most
                     opportunity
                     didn't. Yet busy any meeting shark light marginalised 4-blocker message. Productize corporate nail

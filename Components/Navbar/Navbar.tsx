@@ -43,19 +43,19 @@ export default function LogoAndMenuItems() {
                         {/* Logo */}
                         <Link href="/">
                             <Image
-                                width={60}
-                                height={60}
-                                src="https://pbs.twimg.com/profile_images/1823657033851170816/DwUBAylS_400x400.png"
+                                width={100}
+                                height={100}
+                                src="/logomain.png"
                                 alt="Logo"
                             />
                         </Link>
 
                         {/* Search Bar */}
-                        <div className="flex-1 mx-4 relative hidden md:block max-w-96">
+                        <div className="flex-1 mx-4 relative hidden md:block max-w-[50%]  rounded-lg">
                             <input
                                 type="text"
                                 placeholder="Rechercher un produit"
-                                className="w-full px-4 py-2 border rounded-lg focus:outline-none text-black focus:ring-2 focus:ring-blue-500"
+                                className="w-full text-sm px-4 py-2 rounded-lg focus:outline-none text-black focus:ring-1 focus:border-slate-100 bg-slate-200"
                             />
                             <MagnifyingGlassIcon className="absolute right-2 top-2 h-5 w-5 text-gray-400"/>
                         </div>
